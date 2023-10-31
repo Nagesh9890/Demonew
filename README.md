@@ -1,6 +1,8 @@
 
 Anupam Rasayan India Ltd SBICC3234
+https://github.com/Nagesh9890/Demonew/pulse
 
+regex_list = [r'[^A-Za-z\&]+', r'\bNULL\b', r'\s+'
 
 
 select cod_acct_no,prod_type from
