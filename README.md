@@ -1,4 +1,11 @@
 
+In our Entity Framework processing pipeline, the beneficiary column undergoes a data cleaning process utilizing a series of regular expressions: [r'[^A-Za-z\&]+', r'\bNULL\b', r'\s+'].
+
+While these regular expressions are effective for cleaning and standardizing data, it has come to our attention that essential information from the beneficiary column might inadvertently be lost or modified during this process. To preserve the fidelity and integrity of our beneficiary data, we will retain the original beneficiary column information in its entirety when writing to the destination table. This ensures that no critical details are compromised, and users can access the complete and unaltered beneficiary information.
+
+
+
+
 Anupam Rasayan India Ltd SBICC3234
 https://github.com/Nagesh9890/Demonew/pulse
 
