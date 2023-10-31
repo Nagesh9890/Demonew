@@ -1,3 +1,8 @@
+
+Anupam Rasayan India Ltd SBICC3234
+
+
+
 select cod_acct_no,prod_type from
 (select cod_prod,cod_acct_no from db_stage.stg_fcr_hdm_vw_ch_acct_mast
 where batch_id = '1697491418491')acct_mast
